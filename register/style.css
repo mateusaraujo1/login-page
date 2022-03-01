@@ -43,7 +43,7 @@ h1 {
     border-bottom: 1px solid #272262;
     background-color: transparent;
     outline: none;
-    min-width: 380px;
+    min-width: 320px;
     font-size: 16px;
     transition: all .2s ease-out;
     border-radius: 0;

@@ -83,7 +83,7 @@ button {
     color: #272262;
     padding: 7px;
     font-weight: bold;
-    font-size: 12pt;
+    font-size: 14pt;
     margin-top: 20px;
     cursor: pointer;
     border-radius: 6px;
@@ -102,8 +102,8 @@ button:hover {
 }
 
 hr {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 7%;
+    margin-bottom: 5%;
     width: 60%;
 }
 
