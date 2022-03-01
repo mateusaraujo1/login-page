@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login page</title>
+    <title>register page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,7 +12,17 @@
 
         <div class="card">
             
-            <h1>Entrar</h1>
+            <h1>Cadastro</h1>
+
+            <div class="label-float">
+                <input type="text" id="nome" placeholder="" required>
+                <label for="nome">Nome completo</label>
+            </div>
+
+            <div class="label-float">
+                <input type="text" id="email" placeholder="" required>
+                <label for="email">E-mail</label>
+            </div>
 
             <div class="label-float">
                 <input type="text" id="usuario" placeholder="" required>
@@ -24,15 +34,20 @@
                 <label for="senha">Senha</label>
             </div>
 
+            <div class="label-float">
+                <input type="password" id="confirmarsenha" placeholder="" required>
+                <label for="confirmarsenha">Confirmar senha</label>
+            </div>
+
             <div class="center">
-                <button>ENTRAR</button>
+                <button>CADASTRAR</button>
             </div>
 
             <div class="center">
                 <hr>
             </div>
 
-            <p>Não tem uma conta? <a href="register/register.html">Cadastre-se</a>
+            <p>Já tem uma conta? <a href="../index.html">Faça login</a>
             </p>
 
         </div>
